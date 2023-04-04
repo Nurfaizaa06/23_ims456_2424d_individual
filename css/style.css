@@ -2,3 +2,16 @@ h1
 {
     color:cadetblue;
 }
+a
+    {
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        font-size: 16pt;
+}
+    
+a:hover
+{
+    color:brown;
+    font-size: 18pt;
+}
