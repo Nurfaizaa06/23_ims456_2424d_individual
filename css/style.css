@@ -10,7 +10,7 @@ body
 
 h1
 {
-    color:burlywood;
+    color:peachpuff;
     font-family: white;
 }
 
@@ -82,3 +82,39 @@ a:hover
     text-align: justify;
     font-family: 'Poltawski Nowy', serif;;
 }
+
+
+
+table, tr, td, th
+    {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+
+
+    td
+    {
+        padding: 5px;
+    }
+
+    tr
+    {
+        background-color: mintcream;
+    }
+
+tr:nth-child(odd)
+    {
+        background-color: grey;
+    }
+
+    th
+    {
+        background-color: grey;
+        color:white;
+    }
+
+    tr:hover
+    {
+        background-color:pink
+    }
